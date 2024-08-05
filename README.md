@@ -64,3 +64,10 @@ Future work may include:
 Exploring additional feature engineering techniques.
 Implementing different regression algorithms for comparison.
 Experimenting with ensemble methods to improve predictive accuracy.
+
+
+
+Libraries
+pip install numpy pandas scikit-learn matplotlib seaborn
+
+
