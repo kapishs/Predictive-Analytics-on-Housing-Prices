@@ -19,10 +19,10 @@ Dataset
 The dataset used in this project is the Ames Housing dataset, which contains 75 features describing various aspects of residential homes in Ames, Iowa, including physical characteristics, geographical locations, and other relevant factors that could influence housing prices.
 
 Technologies Used
-Python
-Jupyter Notebooks
-Libraries
-To run this project, you need to install the following Python libraries:
+1. Python
+2. Jupyter Notebooks
+3. Libraries
+4. To run this project, you need to install the following Python libraries:
 
 bash
 Copy code
