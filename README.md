@@ -1,73 +1,77 @@
-# Predictive-Analytics-on-Housing-Prices
-Developed a machine learning model to predict house prices using the Ames Housing dataset
-Predictive Analytics on Housing Prices
-Project Overview
+
+# Predictive Analytics on Housing Prices
+
+## Project Overview
 The objective of this project is to develop a predictive model for housing prices using the Ames Housing dataset. The project focuses on preprocessing data, handling outliers and missing values, encoding categorical data, scaling features, and applying advanced modeling techniques to achieve optimal performance.
 
-Table of Contents
-1. Dataset
-2. Technologies Used
-3. Libraries
-4. Data Preprocessing
-5. Model Building
-6. Model Evaluation
-7. Results
-8. Conclusion
-9. Future Work
-10. Dataset
-The dataset used in this project is the Ames Housing dataset, which contains 75 features describing various aspects of residential homes in Ames, Iowa, including physical characteristics, geographical locations, and other relevant factors that could influence housing prices.
+## Table of Contents
+- [Dataset](#dataset)
+- [Technologies](#technologies)
+- [Libraries](#libraries)
+- [Data Loading](#data-loading)
+- [Preprocessing](#preprocessing)
+- [Modeling](#modeling)
+- [Evaluation](#evaluation)
+- [Results](#results)
+- [Future Work](#future-work)
 
-Technologies Used
-1. Python
-2. Jupyter Notebooks
-3. Libraries
-4. To run this project, you need to install the following Python libraries:
 
-bash
-Copy code
+## Dataset
+The Ames Housing dataset contains 75 features related to residential homes in Ames, Iowa.
+
+## Technologies
+- Python
+- Jupyter Notebooks
+
+## Libraries
+Install the required libraries:
+
+```bash
 pip install numpy pandas scikit-learn matplotlib seaborn
-Data Loading
-Make sure the dataset file (e.g., AmesHousing.csv) is placed in the same folder as your Jupyter Notebook. You can load the data using the following code:
+```
+## Data Loading
+Ensure the dataset (e.g., AmesHousing.csv) is in the same folder as your notebook
 
-python
-Copy code
-import pandas as pd
 
-# Load the dataset
-df = pd.read_csv('AmesHousing.csv')
-Data Preprocessing
+## Preprocessing
 The data preprocessing steps taken in this project include:
 
-1. Handling Outliers: Identified and treated outliers in the dataset.
-2. Dealing with Missing Data: Addressed missing values through imputation or removal.
-3. Categorical Data Encoding: Converted categorical variables into numerical formats using one-hot encoding.
-4. Feature Scaling: Normalized or standardized numerical features to ensure consistent scale.
-5. Model Building
-6. The model building process involved the following steps:
+### Handling Outliers:
+ Identified and treated outliers in the dataset.
+### Dealing with Missing Data: 
+Addressed missing values through imputation or removal.
+### Categorical Data Encoding: 
+Converted categorical variables into numerical formats using one-hot encoding.
+### Feature Scaling:
+ Normalized or standardized numerical features to ensure consistent scale.
 
-Train-Test Split: Split the data into training and testing sets.
-Model Selection: Applied ElasticNetCV to find the best combination of L1 and L2 regularization.
-Hyperparameter Tuning: Used Grid Search to tune hyperparameters and achieve the best RMSE.
-Model Evaluation
+
+## Modeling
+The model building process involved the following steps:
+
+## Train-Test Split: 
+Split the data into training and testing sets.
+## Model Selection: 
+Applied ElasticNetCV to find the best combination of L1 and L2 regularization.
+
+## Hyperparameter Tuning: 
+Used Grid Search to tune hyperparameters and achieve the best RMSE.
+## Evaluation
 The model was evaluated using Root Mean Squared Error (RMSE) as the primary performance metric. Cross-validation was also performed to ensure model robustness.
 
-Results
+## Results
 RMSE: 20558.51
+
 Mean Sale Price: 180815.54
+
 The RMSE indicates that the model's predictions are, on average, off by approximately $20,558.51 from the actual sale prices.
-Conclusion
+## Conclusion
 The project successfully developed a predictive model for housing prices with reasonable accuracy. While the RMSE is acceptable, there are opportunities for further improvement in the model's performance.
 
-Future Work
+## Future Work
 Future work may include:
 
-Exploring additional feature engineering techniques.
-Implementing different regression algorithms for comparison.
-Experimenting with ensemble methods to improve predictive accuracy.
-
-
-
-Libraries
-pip install numpy pandas scikit-learn matplotlib seaborn
-
+1. Exploring additional feature engineering techniques.
+2. Implementing different regression algorithms for comparison.
+3. Experimenting with ensemble methods to improve predictive accuracy
 
