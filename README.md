@@ -5,17 +5,16 @@ Project Overview
 The objective of this project is to develop a predictive model for housing prices using the Ames Housing dataset. The project focuses on preprocessing data, handling outliers and missing values, encoding categorical data, scaling features, and applying advanced modeling techniques to achieve optimal performance.
 
 Table of Contents
-Dataset
-Technologies Used
-Libraries
-Data Preprocessing
-Model Building
-Model Evaluation
-Results
-Conclusion
-Future Work
-License
-Dataset
+1. Dataset
+2. Technologies Used
+3. Libraries
+4. Data Preprocessing
+5. Model Building
+6. Model Evaluation
+7. Results
+8. Conclusion
+9. Future Work
+10. Dataset
 The dataset used in this project is the Ames Housing dataset, which contains 75 features describing various aspects of residential homes in Ames, Iowa, including physical characteristics, geographical locations, and other relevant factors that could influence housing prices.
 
 Technologies Used
@@ -39,12 +38,12 @@ df = pd.read_csv('AmesHousing.csv')
 Data Preprocessing
 The data preprocessing steps taken in this project include:
 
-Handling Outliers: Identified and treated outliers in the dataset.
-Dealing with Missing Data: Addressed missing values through imputation or removal.
-Categorical Data Encoding: Converted categorical variables into numerical formats using one-hot encoding.
-Feature Scaling: Normalized or standardized numerical features to ensure consistent scale.
-Model Building
-The model building process involved the following steps:
+1. Handling Outliers: Identified and treated outliers in the dataset.
+2. Dealing with Missing Data: Addressed missing values through imputation or removal.
+3. Categorical Data Encoding: Converted categorical variables into numerical formats using one-hot encoding.
+4. Feature Scaling: Normalized or standardized numerical features to ensure consistent scale.
+5. Model Building
+6. The model building process involved the following steps:
 
 Train-Test Split: Split the data into training and testing sets.
 Model Selection: Applied ElasticNetCV to find the best combination of L1 and L2 regularization.
